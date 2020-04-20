@@ -1,0 +1,163 @@
+* {
+   margin: 0px;
+   padding: 0px;
+   font-weight: 200;
+   font-family: helvetica neue, helvetica, arial, sans-serif;
+   -webkit-font-smoothing: antialiased;
+}
+
+
+body {
+   background: #FAAA39;
+}
+
+.scroller {
+   height: 50px;
+   line-height: 50px;
+   overflow: hidden;
+}
+
+.scroller span {
+   display: block; 
+   font-size: 250%;
+   color: #fafafa;
+}
+
+@media screen and (max-width:522px) { 
+   .scroller span {
+      font-size: 235%;
+   }
+}
+
+@media screen and (max-width:492px) { 
+   .scroller span {
+      font-size: 215%;
+   }
+}
+
+@media screen and (max-width:454px) { 
+   .scroller span {
+      font-size: 200%;
+   }
+}
+
+@media screen and (max-width:424px) { 
+   .scroller span {
+      font-size: 175%;
+   }
+}
+
+@media screen and (max-width:374px) { 
+   .scroller span {
+      font-size: 165%;
+   }
+}
+
+@media screen and (max-width:354px) { 
+   .scroller span {
+      font-size: 155%;
+   }
+}
+
+@media screen and (max-width:334px) { 
+   .scroller span {
+      font-size: 145%;
+   }
+}
+
+@media screen and (max-width:314px) { 
+   .scroller span {
+      font-size: 135%;
+   }
+}
+
+
+.scroller .inner {
+   -webkit-animation: scroll 10s 1 ease-out;
+   -moz-animation: scroll 10s 1 ease-out;
+   animation: scroll 10s 1 ease-out;
+   -webkit-animation-fill-mode: forwards;
+   -moz-animation-fill-mode: forwards;
+   animation-fill-mode: forwards;
+}
+
+
+.blue {
+   -webkit-animation: color 0.25s 1 linear;
+   -moz-animation: color 0.25s 1 linear;
+   animation: color 0.25s 1 linear;
+   
+      -webkit-animation-delay: 8s;
+   -moz-animation-delay: 8s;
+   animation-delay: 8s;
+   
+      -webkit-animation-fill-mode: forwards;
+   -moz-animation-fill-mode: forwards;
+   animation-fill-mode: forwards;
+}
+
+.blueb {
+   -webkit-animation: color 0.25s 1 linear;
+   -moz-animation: color 0.25s 1 linear;
+   animation: color 0.25s 1 linear;
+   
+         -webkit-animation-delay: 8.25s;
+   -moz-animation-delay: 8.25s;
+   animation-delay: 8.25s;
+   
+      -webkit-animation-fill-mode: forwards;
+   -moz-animation-fill-mode: forwards;
+   animation-fill-mode: forwards;
+}
+
+
+@-webkit-keyframes color {
+   0%  {color: #111;}
+   100% {color: #111;}
+}
+
+@-moz-keyframes color {
+   0%  {color: #111;}
+   100% {color: #111;}
+}
+
+@keyframes color {
+   0%  {color: #111;}
+   100% {color: #111;}
+}
+
+@-webkit-keyframes scroll {
+   11%  {margin-top: 0px;}
+   22%  {margin-top: 0px;}
+   33%  {margin-top: -50px;}
+   44%  {margin-top: -50px;}
+   55%  {margin-top: -100px;}
+   66%  {margin-top: -100px;}
+   77%  {margin-top: -150px;}
+   88%  {margin-top: -150px;}
+   100% {margin-top: -150px;}
+}
+
+@-moz-keyframes scroll {
+   11%  {margin-top: 0px;}
+   22%  {margin-top: 0px;}
+   33%  {margin-top: -50px;}
+   44%  {margin-top: -50px;}
+   55%  {margin-top: -100px;}
+   66%  {margin-top: -100px;}
+   77%  {margin-top: -150px;}
+   88%  {margin-top: -150px;}
+   100% {margin-top: -150px;}
+}
+
+@keyframes scroll {
+   11%  {margin-top: 0px;}
+   22%  {margin-top: 0px;}
+   33%  {margin-top: -50px;}
+   44%  {margin-top: -50px;}
+   55%  {margin-top: -100px;}
+   66%  {margin-top: -100px;}
+   77%  {margin-top: -150px;}
+   88%  {margin-top: -150px;}
+   100% {margin-top: -150px;}
+}

@@ -1,0 +1,31 @@
+/* MODAL */
+
+.myModal {
+    margin-top: 52px
+}
+
+.nome {
+    font-weight: 500;
+    color: #FAAA39;
+    letter-spacing: 4px;
+}
+
+.desc {
+    font-size: 15px; 
+    color: #555;
+}
+
+.txtAviso {
+    font-size: 20px; 
+    color: #555;
+}
+
+.motivo {
+    font-weight: bold;
+    font-size: 20px; 
+    color: #FAAA39;
+}
+
+.uk-modal-footer .btn {
+    background-color: #FAAA39;
+}

@@ -1,0 +1,99 @@
+/* MENU HORIZONTAL */
+#menu {
+    padding: 0px !important;
+    background-color: #FAAA39;
+    height: 52px;
+}
+
+.navbar-item {
+    flex: none;
+    height: 52px;
+}
+
+/* --LEFT-- */
+#menu-toggle {
+    color: white;
+}
+
+#menu-toggle:hover {
+    color: white;
+    background-color: rgb(33, 32, 34);
+    border-bottom: 3px rgb(144, 233, 212) solid;
+    transition: 0.5s;
+}
+
+.bars {
+    display: inline-block;
+    width: 50px;
+    font-size: 30px;
+}
+
+#logonav {
+    border-bottom: 3px rgb(144, 233, 212) solid;
+}
+
+#logonav:hover {
+    background: none;
+}
+
+/* --CENTER-- */
+
+/* --RIGHT-- */
+#fotoUsuario img {
+    width: 40px;
+    min-width: 30px;
+    max-width: 40px;
+    height: 40px;
+    min-height: 30px;
+    max-height: 40px;
+    border-radius: 50%;
+}
+
+#fotoUsuario:hover {
+    background-color: #1b1a1a;
+    border-bottom: 3px rgb(144, 233, 212) solid;
+    transition: 0.5s;
+}
+
+/* MENU VERTICAL */
+.sidebar-container {
+    position: fixed;
+    margin-top: 0px;
+    width: 75px;
+    min-width: 30px;
+    max-width: 75px;
+    height: 100%;
+    left: 0;
+    overflow-x: hidden;
+    overflow-y: auto;
+    background: #FAAA39;
+    color: #fff;
+}
+
+#plusAnimal i {
+    width: 75px;
+    padding: 10px;
+    font-size: 50px;
+    color: white;
+}
+
+#pet img {
+    border-radius: 50%;
+    height: 50px;
+}
+
+.sidebar-navigation {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    position: relative;
+}
+
+.sidebar-navigation li {
+    width: 75px;
+    padding: 10px;
+}
+
+.sidebar-navigation a:hover {
+    color: #1b1a1a;
+}

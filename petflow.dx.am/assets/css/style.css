@@ -1,0 +1,222 @@
+/* MEU CSS MINHAS REGRAS OK? */
+/* Rafa comenta o CSS na próxima :c */
+/* Rafa incrível */
+
+/* ALL */
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* BODY */
+body {
+    font-size: 16px;
+    background-color: #fff;
+    font-weight: 300;
+    line-height: 30px;
+    text-align: center;
+    margin-top: 52px
+}
+
+/* HTML ELEMENTS */
+a, a:hover, a:focus {
+	color: rgb(255, 255, 255);
+	text-decoration: none;
+    -o-transition: all .3s; 
+    -moz-transition: all .3s; 
+    -webkit-transition: all .3s; 
+    -ms-transition: all .3s; 
+    transition: all .3s;
+}
+
+h1, h2 {
+	margin-top: 10px;
+	font-size: 38px;
+    font-weight: 100;
+    color: #555;
+    line-height: 50px;
+}
+
+h3 {
+	font-size: 22px;
+    font-weight: 300;
+    color: darkorange;
+    letter-spacing: 2px;
+    line-height: 30px;
+}
+
+/* UIKIT */
+.uk-button { 
+    color: #ffffff;
+}
+
+.uk-textarea:focus { 
+    outline:0;
+    background-color:#fff;
+    color:#666;
+    border-color:#FAAA39;
+}
+
+/* --OFFCANVAS-- */
+.uk-offcanvas-bar {
+    width: 200px;
+    background-color: #FAAA39;
+}
+
+/* SECTION PRINCIPAL */
+.principal {
+    margin-top: 52px;
+}
+
+/* TELA LOGIN */
+/* -- TOP -- */
+.inner-bg {
+    padding: 60px 0 80px 0; 
+}
+
+.column a {
+    border: none;
+    font-size: 25px;
+    color: #FAAA39;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.description {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/* -- DOWN -- */
+.form-box {
+	margin-top: 70px;
+}
+
+.form-top {
+	overflow: hidden;
+	padding: 0 25px 15px 25px;
+    background: #fff;
+    height: 100px;
+	-moz-border-radius: 10px 10px 0 0; -webkit-border-radius: 10px 10px 0 0; border-radius: 10px 10px 0 0;
+	text-align: left;
+}
+
+.form-top-left {
+	float: left;
+}
+
+.form-top-left h3 {
+    text-align: left;
+    font-size: 50px;
+}
+
+.form-top-right {
+	float: left;
+	font-size: 65px;
+	color: #ddd;
+	text-align: right;
+}
+
+#forget {
+    color: #3CA28D;
+    
+}
+
+#forget:hover {
+    text-decoration: underline;
+}
+
+@media screen and (max-width:1200px) { 
+    .form-top-left h3 {
+        font-size: 45px;
+    }
+
+    .form-top-right {
+        font-size: 60px;
+    }
+}
+
+@media screen and (max-width:991px) { 
+    .form-top-left h3 {
+        font-size: 40px;
+    }
+
+    .form-top-right {
+        font-size: 55px;
+    }
+}
+
+@media screen and (max-width:767px) { 
+    .form-top-left h3 {
+        font-size: 50px;
+    }
+
+    .form-top-right {
+        font-size: 60px;
+    }
+}
+
+@media screen and (max-width:350px) { 
+    .form-top-left h3 {
+        font-size: 40px;
+    }
+
+    .form-top-right {
+        font-size: 55px;
+    }
+}
+
+.form-bottom {
+	padding: 25px 25px 30px 25px;
+	background: #eee;
+	-moz-border-radius: 0 0 4px 4px; -webkit-border-radius: 0 0 4px 4px; border-radius: 0 0 10px 10px;
+	text-align: left;
+}
+
+.form-bottom form button.btn {
+	width: 100%;
+    background-color: darkturquoise;
+}
+
+.middle-border {
+    min-height:800px;
+    margin-bottom: none;
+	margin-top: 170px 0px;
+	border-right: 0px solid #ffffff;
+}
+
+/* TELA CADASTRO */
+.avatar {
+    border-radius: 50%;
+    border: 10px #FAFAFA solid;
+}
+
+.textinho {
+    margin-top: 5%;
+    text-align: center;
+    font-weight: 400;
+    color: #FAFAFA;
+    font-size: 150%;
+}
+
+#seguir {
+    color: #FAAA39;
+    background-color: white;
+    border-color: #FAAA39;
+}
+
+#seguir:hover {
+    color: white;
+    border-color: #FAAA39;
+    background-color: #FAAA39;
+}
+
+#principal {
+    margin-left: 100px;
+    padding-top: 52px;
+}
+
+.textarea {
+    resize: none;
+}

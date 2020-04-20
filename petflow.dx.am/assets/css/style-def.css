@@ -1,0 +1,321 @@
+/* Rafa Cry cry CSS */
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    background-color: #ffffff;
+    font-weight: 300;
+    line-height: 30px;
+    text-align: center;
+}
+
+.level-item i:hover {
+    color: black;
+    -o-transition: all .3s; -moz-transition: all .3s; -webkit-transition: all .3s; -ms-transition: all .3s; transition: all .3s;
+}
+
+.pagina {
+    background-color: #ffff;
+}
+
+.publicacoes {
+    background-color: #ffff;
+}
+
+.menu-abrir a {
+    padding-left: 20px;
+    font-size: 20px;
+    margin: auto;
+}
+
+.usuario img {
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+}
+
+.txtNameAnimal {
+    font-size: 18px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 100px;
+    margin: auto
+}
+
+.txtNameUsuario {
+    font-size: 18px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 100px;
+    margin: auto
+}
+
+.txtData {
+    font-size: 12px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 100px;
+    margin: auto
+}
+
+.usuarioMudar img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.fotoPostDiv img {
+    width: 200px;
+    height: 200px;
+}
+
+.usuario a {
+    font-size: 30px;
+}
+
+.uk-nav button {
+    padding-bottom: 10px;
+}
+
+.uk-nav-divider {
+    padding-bottom: 2px;
+    padding-top: 2px;
+}
+
+.uk-offcanvas-slide {
+    width: 200px;
+    background-color: #FAAA39;
+}
+
+
+strong { 
+    font-weight: 500; 
+}
+
+.logo {
+    width: 200px;
+    filter: drop-shadow(
+        0px 0px 23px #ffffff
+    )
+}
+
+.dono h1 {
+    margin-top: 20px;
+	font-size: 40px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    color: #FAAA39;
+    line-height: 50px;
+}
+
+.dono {
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px;
+    filter: drop-shadow(
+        0px 0px 5px #ffffff
+    )
+}
+
+.dono button {
+    font-size: 150px;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-color: white;
+    overflow: hidden;
+    background-image:url("../img/default.png");
+    background-size: 250px;
+}
+
+.add button {
+    font-size: 150px;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-color: #FAAA39;
+    overflow: hidden;
+    
+}
+
+.botaosair button {
+    font-size: 15px;
+    height: 50px;
+    border-radius: 5%;
+    width: auto;
+    background-color: #63E5C7;
+}
+
+.modal-footer button {
+    background-color: #63E5C7;
+    color: #ffffff;
+     text-transform: uppercase;
+    border-radius: 5%;
+    height: 50px;
+    width: auto;
+    font-size: 15px;
+    
+}
+
+.modal-body button {
+    font-size: 150px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: white;
+    background-image:url("../img/default.png");
+    background-size: 200px;
+    margin: 10px;
+}
+
+
+.uk-modal-title {
+    color: #FAAA39;
+    font-weight: bold;
+}
+
+#sobre img {
+    width: 130px;
+    border-radius: 50%;
+}
+
+.uk-modal-body input[type='text'] {
+    background: #fff;
+    border: 1px solid #ddd;
+}
+
+.uk-modal-body input[type='submit'] {
+    background: #FAAA39;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.uk-modal-body input[type='submit']:hover {
+    background-color: rgb(240, 145, 13);
+    -o-transition: all .3s; -moz-transition: all .3s; -webkit-transition: all .3s; -ms-transition: all .3s; transition: all .3s;
+}
+
+.group {
+    color: rgb(91, 214, 185);
+    font-weight: bold;
+    font-size: 40px;
+    letter-spacing: 5px;
+}
+
+.modal-body {
+    padding: 20px;
+}
+
+.postPerfil{
+    width: 100%;
+}
+
+.postPerfil textarea {
+    width: 100%;
+    margin-bottom: 10px;
+    border: 1px solid darkturquoise;
+   
+}
+
+.animalPostPerfil img{
+    margin-left: -10px;
+    border-radius: 50%;
+    width: 90px;
+}
+
+.infoSub i {
+    color: #FAAA39; 
+}
+
+.publicacoesPerfil {
+    padding-right: 40px;
+}
+
+.publicacoes {
+    padding-left: 220px;
+    padding-right: 220px;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.nomePet h1 {
+    color: #FAAA39;
+}
+
+.usuarioEscolher img {
+    width: 100px;
+    border-radius: 50%;
+}
+
+.add p {
+    margin: 10px;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    font-size: 20px;
+    font-weight: bold;
+    color:#3CA28D;
+}
+
+.fotoPerfil {
+    border-radius: 50%;
+    padding: 10px;
+    width: 200px;
+    height: 200px;
+}
+
+/***** Top content *****/
+.cabecalho {
+    background-color: rgb(144, 233, 212);
+}
+
+.cabecalho .text {
+	color: dimgray;
+}
+
+.cabecalho .text h1 { color: #000; }
+
+.cabecalho .description {
+	margin: 20px 0 10px 0;
+}
+
+.cabecalho .description p { opacity: 0.8; }
+
+.cabecalho .description a:hover, 
+.cabecalho .description a:focus { border-bottom: 1px dotted #fff; }
+
+/***** Footer *****/
+footer strong{
+    font-size: 15px;
+    color: rgb(41, 87, 76);
+    letter-spacing: 3px;
+}
+
+footer .footer-border {
+	width: auto;
+	margin: 0 auto;
+	padding-bottom: 30px;
+	border-top: 1px solid #ffffff;
+}
+
+footer p { opacity: 0.8; }
+
+/***** Media queries *****/
+@media (min-width: 992px) and (max-width: 1199px) {}
+
+@media (min-width: 768px) and (max-width: 991px) {}
+
+@media (max-width: 767px) {
+	
+	.middle-border { min-height: auto; margin: 65px 30px 0 30px; border-right: 0; 
+						border-top: 1px solid #fff; border-top: 1px solid #ffffff; }
+	
+}
+
+@media (max-width: 415px) {
+	
+	h1, h2 { font-size: 32px; }
+
+}
