@@ -6,7 +6,7 @@
     }, 
 
     "require": {
-        "phpmailer/phpmailer": "6.1.2",
+        "phpmailer/phpmailer": "6.1.6",
         "mpdf/mpdf" : "^8.0"
     }
 }
